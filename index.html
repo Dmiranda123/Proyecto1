@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Proccesor's Shop</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="header">
+      <!-- navbar-->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Imagenes/Logo.png" width="120" height="110"></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <li><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+              <li><a class="nav-link" href="Nosotros.html">Nosotros</a></li>
+              <li><a class="nav-link" href="#">Servicios</a></li>
+              <li><a class="nav-link" href="Contacto.html">Contacto</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+
+    <seccion class="main container">
+      <div class="container">
+      
+      
+        <div class="row align-items-start">
+
+          <!-- categoria-->
+
+          <div class="col-3">
+            <br>
+            <br>
+            <h1 id="st1">Processor's Shop</h1>
+            <br>
+            <center id="st1">Escoja su categoria de procesador:</center>
+            <br>
+            <br>
+            <p>
+            <center>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+              Categoria AMD
+            </a>
+            <br>
+            <br>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+              Categoria Intel
+            </a>
+            </center>
+            </p>
+          </div>
+
+          <div class="col">
+
+            <!-- carousel-->
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Imagenes/Carrusel/Bienvenido.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imagenes/Carrusel/AMD.gif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imagenes/Carrusel/Intel.gif" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+
+
+            <!-- cards-->
+            <br>
+            <br>
+            <h1 id="st1">Procesadores AMD</h1>
+            <br>
+            <div class="collapse1" id="collapseExample1">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              
+              <div class="col">
+                <div class="card">
+                  <img src="Imagenes/Cartas/AMD/AMD_A1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">AMD A6-7400K</h5>
+                    <p class="card-text">
+                      Frecuencia 3500 - 3900 MHz
+                      <br><br>
+                      Núcleos / hilos 2 núcleos / 2 hilos
+                      <br><br>
+                      Socket FM2+
+                      <br><br>
+                      Cache 1MB L2 / No posee L3
+                      <br><br>
+                      Arquitectura AMD Kaveri
+                      </p>
+                    <a href="#" class="btn btn-primary">Añadir al carro</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="Imagenes/Cartas/AMD/AMD_A2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">AMD A6-9500E</h5>
+                    <p class="card-text">
+                      Frecuencia 3000 - 3400 MHz
+                      <br><br>
+                      Núcleos / hilos 2 núcleos / 2 hilos
+                      <br><br>
+                      Socket AM4
+                      <br><br>
+                      Cache 1MB L2 / No posee L3
+                      <br><br>
+                      Arquitectura AMD Bristol Ridge
+                      </p>
+                    <a href="#" class="btn btn-primary">Añadir al carro</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="Imagenes/Cartas/AMD/AMD_Athlon1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">AMD Athlon 3000G</h5>
+                    <p class="card-text">
+                      Frecuencia 3500 MHz
+                      <br><br>
+                      Núcleos / hilos 2 núcleos / 4 hilos
+                      <br><br>
+                      Socket AM4
+                      <br><br>
+                      Cache 2 x 512KB L2 / 4MB L3
+                      <br><br>
+                      Arquitectura AMD Raven Ridge
+                      </p>
+                    <a href="#" class="btn btn-primary">Añadir al carro</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="Imagenes/Cartas/AMD/AMD_Ryzen1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">AMD Ryzen 5 1600 AF</h5>
+                    <p class="card-text">
+                      Frecuencia 3200 - 3600 MHz
+                      <br><br>
+                      Núcleos / hilos 6 núcleos / 12 hilos
+                      <br><br>
+                      Socket AM4
+                      <br><br>
+                      Cache 6 x 512KB L2 / 2 x 8MB L3
+                      <br><br>
+                      Arquitectura AMD Pinnacle Ridge
+                      </p>
+                    <a href="#" class="btn btn-primary">Añadir al carro</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="Imagenes/Cartas/AMD/AMD_Ryzen2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">AMD Ryzen 5 2600</h5>
+                    <p class="card-text">
+                      Frecuencia 3400 - 3900 MHz
+                      <br><br>
+                      Núcleos / hilos 6 núcleos / 12 hilos
+                      <br><br>
+                      Socket AM4
+                      <br><br>
+                      Cache 6 x 512KB L2 / 16MB L3
+                      <br><br>
+                      Arquitectura AMD Pinnacle Ridge
+                      </p>
+                    <a href="#" class="btn btn-primary">Añadir al carro</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <br>
+            <br>
+            <h1 id="st1">Procesadores Intel</h1>
+            <br>
+            <div class="collapse2" id="collapseExample2">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="Imagenes/Cartas/Intel/Intel_Celeron1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Intel Celeron G5905</h5>
+                      <p class="card-text">
+                        Frecuencia: 3500 MHz
+                        <br><br>
+                        Núcleos / hilos: 2 núcleos / 2 hilos
+                        <br><br>
+                        Socket: LGA 1200
+                        <br><br>
+                        Cache: 2 x 256KB L2 / 2 x 2MB L3
+                        <br><br>
+                        Arquitectura: Intel Comet Lake S
+                        <br><br>
+                        </p>
+                      <a href="#" class="btn btn-primary">Añadir al carro</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="Imagenes/Cartas/Intel/Intel_Celeron2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Intel Celeron G4930</h5>
+                      <p class="card-text">
+                        Frecuencia: 3200 MHz
+                        <br><br>
+                        Núcleos / hilos: 2 núcleos / 2 hilos
+                        <br><br>
+                        Socket: LGA 1151 (8va / 9na gen)
+                        <br><br>
+                        Cache: 2 x 256KB L2 / 2 x 1MB L3
+                        <br><br>
+                        Arquitectura: Intel Coffee Lake S</p>
+                        
+                      <a href="#" class="btn btn-primary">Añadir al carro</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="Imagenes/Cartas/Intel/Intel_Core1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Intel Core i3-4170</h5>
+                      <p class="card-text">
+                        Frecuencia 3700 MHz
+                        <br><br>
+                        Núcleos / hilos 2 núcleos / 4 hilos
+                        <br><br>
+                        Socket LGA 1150
+                        <br><br>
+                        Cache 2 x 256KB L2 / 3MB L3
+                        <br><br>
+                        Arquitectura Intel Haswell
+                        <br><br>
+                        </p>
+                      <a href="#" class="btn btn-primary">Añadir al carro</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="Imagenes/Cartas/Intel/Intel_Core2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Intel Core i3-10100F</h5>
+                      <p class="card-text">
+                        Frecuencia 3600 - 4300 MHz
+                        <br><br>
+                        Núcleos / hilos 4 núcleos / 8 hilos
+                        <br><br>
+                        Socket LGA 1200
+                        <br><br>
+                        Cache 4 x 256KB L2 / 6MB L3
+                        <br><br>
+                        Arquitectura Intel Comet Lake S
+                        </p>
+                      <a href="#" class="btn btn-primary">Añadir al carro</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="Imagenes/Cartas/Intel/Intel_Pentium1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Intel Pentium G3220</h5>
+                      <p class="card-text">
+                        Frecuencia 3000 MHz
+                        <br><br>
+                        Núcleos / hilos 2 núcleos / 2 hilos
+                        <br><br>
+                        Socket LGA 1150
+                        <br><br>
+                        Cache 2 x 256KB L2 / 3MB L3
+                        <br><br>
+                        Arquitectura Intel Haswell
+                        </p>
+                      <a href="#" class="btn btn-primary">Añadir al carro</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="Imagenes/Cartas/Intel/Intel_Pentium2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Intel Pentium Gold G6400</h5>
+                      <p class="card-text">
+                        Frecuencia 4000 MHz
+                        <br><br>
+                        Núcleos / hilos 2 núcleos / 4 hilos
+                        <br><br>
+                        Socket LGA 1200
+                        <br><br>
+                        Cache 2 x 256KB L2 / 4MB L3
+                        <br><br>
+                        Arquitectura Intel Comet Lake S
+                        </p>
+                      <a href="#" class="btn btn-primary">Añadir al carro</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            
+    </seccion>  
+
+      <!-- Accordion-->
+            
+    
+    
+    
+    
+
+
+    
+
+    <!-- Aqui va el jumbotron -->
+
+
+    <div class="footer">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="https://getbootstrap.com" id="st1"> getbootstrap.com</a>
+        <p>Diego Miranda - Todos los derechos reservados</p>
+      </div>
+      <!-- Copyright -->
+      
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

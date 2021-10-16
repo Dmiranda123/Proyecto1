@@ -1,0 +1,27 @@
+body{
+    background: #5698fc;
+    }
+
+    #st1{
+      color:white;
+      text-align: center;
+    }
+    #st2{
+      color:white;
+    }
+
+    .header {
+  padding: 60px;
+  text-align: center;
+  background: #3e7cdb;
+  color: red;
+  font-size: 30px;
+}
+
+    .footer {
+  padding: 60px;
+  text-align: center;
+  background: #3e7cdb;
+  color: white;
+  font-size: 30px;
+}
